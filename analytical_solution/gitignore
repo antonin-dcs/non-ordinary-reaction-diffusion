@@ -1,0 +1,119 @@
+# --- OS / Editor ---
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# VS Code / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.*
+
+# Packaging / Build
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Logs / Caches
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+.cache/
+.pytest_cache/
+
+# Test / Coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Type checking
+.mypy_cache/
+.pyre/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# --- Binary assets (ignored) ---
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.svg
+*.webp
+*.heic
+*.ico
+*.icns
+
+# Videos
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# SCM
+.svn/
+CVS/
+
+# --- Project data and figures ---
+# Ignore generated figures (can be reproduced)
+figures/
+
+# Ignore most data by default; keep canonical small inputs
+data/**
+!data/
+!data/trap_coordinates(in).csv
+!data/trap_counts(in).csv
+!data/simulation.csv
