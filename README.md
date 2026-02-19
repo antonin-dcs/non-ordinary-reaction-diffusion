@@ -3,7 +3,7 @@
 This project provides a comprehensive mathematical and numerical framework for the analysis, simulation, and parameter estimation of mosquito population control strategies, specifically the **Sterile Insect Technique (SIT)**. 
 
 ## Publication
-Download our full paper: [Mosquito_Diffusion_Study.pdf](./Mosquito_diffusion_study.pdf)
+Download our full paper: [Mosquito_Diffusion_Study.pdf](./Mosquito_diffusion_en.pdf)
 
 ## Project Overview
 The core of this project is a deterministic spatial diffusion model describing the evolution of mosquito surface density $\rho(x, y, t)$. This study, conducted as part of a larger initiative led by **Facundo Muñoz, (CIRAD)**, aims to provide tools to optimize the release of sterile males to regulate vector-borne diseases.
